@@ -1,0 +1,31 @@
+{
+  "name": "todo-nuxt-typescript",
+  "version": "1.0.0",
+  "description": "My splendid Nuxt.js project",
+  "author": "TigRig",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.1.6",
+    "nuxt": "^2.9.2",
+    "vue-property-decorator": "^8.2.2"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.2.9",
+    "@nuxtjs/eslint-config-typescript": "^0.1.3",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4",
+    "vuex-module-decorators": "^0.10.1"
+  }
+}
